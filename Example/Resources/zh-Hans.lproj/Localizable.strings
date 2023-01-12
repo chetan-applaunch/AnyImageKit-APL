@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  Example
+
+  Created by 蒋惠 on 2019/11/8.
+  Copyright © 2019-2021 AnyImageKit.org. All rights reserved.
+*/
+
+// Picker
+"OpenPicker" = "打开相册";
+"Theme" = "主题";
+"SelectLimit" = "最多可选择的资源";
+"ColumnNumber" = "一行的列数";
+"UseOriginalImage" = "是否使用原图";
+"SelectionTapAction" = "资源列表点击动作";
+"SelectOptions" = "资源类型";
+"AlbumOptions" = "相册类型";
+"OrderByDate" = "排序方式";
+"SaveEditedAsset" = "保存编辑后的资源";
+"EditorOptions" = "编辑类型";
+"CaptureOptions" = "拍摄类型";
+"FullScreen" = "是否全屏";
+
+// Editor
+"OpenEditor" = "打开编辑器";
+"EditOptions" = "编辑功能";
+"PenWidth" = "画笔宽度";
+"MosaicOptions" = "马赛克种类";
+"MosaicWidth" = "马赛克线条宽度";
+"MosaicLevel" = "马赛克模糊度";
+"CropOptions" = "裁剪尺寸";
+
+// Capture
+"OpenCamera" = "打开相机";
+"MediaOptions" = "媒体配置";
+"PreferredPresets" = "优先使用的相机预设";
+"PhotoAspectRatio" = "照片比例";
+"PreferredPositions" = "优先使用的相机";
+"FlashMode" = "闪光灯模式";
+"VideoMaximumDuration" = "视频拍摄最长时间";
+
+// Other
+"Preselect Assets Tips" = "预选中功能\n首次选择照片后，再次进入Picker时传入选中照片的ID，可以实现预选中照片功能。";
