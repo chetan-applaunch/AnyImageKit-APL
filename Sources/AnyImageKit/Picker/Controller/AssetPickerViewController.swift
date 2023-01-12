@@ -33,7 +33,7 @@ final class AssetPickerViewController: AnyImageViewController {
     
     #if swift(>=5.5)
     private var _dataSource: Any?
-    @available(iOS 14.0, *)
+    
     private var dataSource: UICollectionViewDiffableDataSource<Section, Asset> {
         get {
             if _dataSource == nil {
@@ -48,7 +48,7 @@ final class AssetPickerViewController: AnyImageViewController {
         }
     }
     #else
-    @available(iOS 14.0, *)
+   
     private lazy var dataSource = UICollectionViewDiffableDataSource<Section, Asset>()
     #endif
     
@@ -714,7 +714,7 @@ extension AssetPickerViewController {
         }
     }
     
-    @available(iOS 14.0, *)
+    
     private func initialSnapshot() -> NSDiffableDataSourceSnapshot<Section, Asset> {
         var snapshot = NSDiffableDataSourceSnapshot<Section, Asset>()
         snapshot.appendSections([.main])
@@ -722,7 +722,7 @@ extension AssetPickerViewController {
         return snapshot
     }
     
-    @available(iOS 14.0, *)
+    
     private func setupDataSource() {
         let cameraCellRegistration = UICollectionView.CellRegistration<CameraCell, Asset> { [weak self] cell, indexPath, asset in
             guard let self = self else { return }
